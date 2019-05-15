@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>ISUD - Contact</title>
+  <meta charset="utf-8" />
+  <meta name="referrer" content="origin">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="style/style.css" />
+  <link rel="shortcut icon" href="isud.ico" />
+  <script src="js/script.js"></script>
+
+</head>
+  <body class = "back">
+    <header>
+      <img src="https://static.wixstatic.com/media/80ed71_fa1e21e9f65843cd91dce868c24ee78f.jpg/v1/fill/w_135,h_141,al_c,q_80,usm_0.66_1.00_0.01/80ed71_fa1e21e9f65843cd91dce868c24ee78f.webp" alt="Smiley Face">
+      <h1> International Society of Universal Dialogue </h1>
+    </header>
+    <nav class="navBar">
+      <ul class=nav>
+        <li class="tabs" ><a href="index.html">Home</a></li>
+        <li class="tabs"><a href="news.html">News</a></li>
+        <li class="tabs"><a href="contact.html">Contact</a></li>
+        <li class="tabs"><a href="aboutus.html">About</a></li>
+      </ul>
+    </nav>
+
+    <fieldset class ="box">
+      <h2 class="contactH"> Please Contact Us </h2>
+      <form name="myForm" method="post" id="form_contact" onsubmit="validateForm()">
+
+        <div class="input">
+          <label class="mail" style="display: block;">Email</label>
+          <input type="email" id="name" name="email" placeholder="email">
+        </div>
+
+        <div class="input">
+          <label class="phone">Your phone number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your digits">
+        </div>
+
+        <div class="input">
+          <label class="birth">Day of Birth </label>
+          <input type="text" id="birth" name="birth" placeholder="yyyy/mm/dd" >
+        </div>
+
+        <div class="comment">
+          <label class="comment">Comments</label>
+          <textarea class="commentBox" name="message" placeholder="Test Message" id="comment_box"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+
+        <p class="note"> Note: We will contact you within a day or 2 upon receiving your contact </p>
+      </form>
+  </fieldset>
+  <p class="footerSubNA">
+    &copy; Jorell Socorro ITMD 362
+  </p>
+</body>
+</html>
